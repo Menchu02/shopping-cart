@@ -1,0 +1,183 @@
+/* src/App.css */
+
+body {
+  background-color: #f8f9fa; /* Un gris muy claro para el fondo */
+  margin: 0; /* Elimina el margen por defecto del body */
+  padding: 0; /* Elimina el padding por defecto del body */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+}
+
+.app-container {
+  min-height: 100vh; /* Asegura que ocupe al menos toda la altura de la vista */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+/* Estilos para el badge del carrito */
+.navbar .badge {
+  font-size: 0.7em; /* Tamaño más pequeño para el número */
+  padding: 0.35em 0.6em;
+  border-radius: 50%; /* Completamente redondo */
+}
+
+/* Estilos para las tarjetas de productos */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none; /* Quitamos el borde por defecto de Bootstrap */
+  border-radius: 12px; /* Bordes un poco más redondeados */
+  overflow: hidden; /* Asegura que la imagen no se salga */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra suave por defecto */
+}
+
+.card:hover {
+  transform: translateY(
+    -5px
+  ); /* Un pequeño efecto de levantamiento al pasar el ratón */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada al pasar el ratón */
+}
+
+.card-img-top {
+  height: 200px; /* Altura fija para las imágenes de los productos */
+  object-fit: cover; /* Recorta la imagen para que quepa bien */
+  border-bottom: 1px solid #eee; /* Línea suave debajo de la imagen */
+}
+
+.card-body {
+  padding: 1.5rem; /* Espaciado interno generoso */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Para empujar el botón al final */
+  min-height: 150px; /* Asegura un mínimo de altura para el cuerpo */
+}
+
+.card-title {
+  font-size: 1.4rem; /* Título del producto más grande */
+  font-weight: 700; /* Más negrita */
+  color: #343a40; /* Color de texto oscuro */
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1.25rem; /* Precio más grande */
+  color: #007bff; /* Color azul para el precio */
+  font-weight: bold;
+  margin-top: auto; /* Empuja el precio hacia abajo si hay espacio */
+}
+
+/* Estilos para los botones */
+.btn-primary {
+  background-color: #007bff; /* Color azul de Bootstrap */
+  border-color: #007bff;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  margin-top: 1rem; /* Espacio encima del botón */
+  padding: 10px 20px; /* Padding para hacerlos más grandes */
+  font-size: 1.05rem; /* Tamaño de fuente del botón */
+  border-radius: 6px; /* Bordes redondeados */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+  border-color: #0056b3;
+  transform: translateY(-1px); /* Pequeño efecto al pasar el ratón */
+}
+
+/* Estilos para el carrito (Offcanvas) */
+.offcanvas-header {
+  background-color: #343a40; /* Fondo oscuro para el encabezado del carrito */
+  color: white; /* Texto blanco */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.offcanvas-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.offcanvas-body {
+  padding: 20px;
+  background-color: #f0f2f5; /* Fondo ligero para el cuerpo del carrito */
+}
+
+.list-group-item {
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
+  padding: 15px; /* Más padding para los ítems del carrito */
+}
+
+.list-group-item:hover {
+  background-color: #e2e6ea; /* Un gris más oscuro al pasar el ratón */
+}
+
+/* Estilos para los botones de cantidad en el carrito */
+.list-group-item .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+.list-group-item .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.list-group-item .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+.list-group-item .btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Estilo para el total del carrito */
+.offcanvas-body h4 {
+  text-align: right;
+  font-size: 2rem; /* Total más grande */
+  color: #28a745; /* Verde para el total */
+  font-weight: bold;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #ddd; /* Línea divisoria más gruesa */
+}
+
+/* Botón de finalizar compra */
+.offcanvas-body .btn-success {
+  width: 100%;
+  padding: 15px; /* Botón más grande */
+  font-size: 1.2rem; /* Texto más grande */
+  font-weight: bold;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.offcanvas-body .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Centrar lista de productos */
+.product-list-container {
+  padding-bottom: 50px; /* Espacio para que el contenido no se pegue al final */
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 2rem;
+}
