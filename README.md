@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+🛒 Shopping Cart App (Tienda de Ropa Online)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación interactiva de carrito de compras, desarrollada con React, que simula una tienda de ropa online. Los usuarios pueden explorar productos, gestionarlos en el carrito y ver el total en tiempo real.
+🚀 Demo en Vivo
 
-## Available Scripts
+Puedes ver la aplicación funcionando aquí:
+https://menchu02.github.io/shopping-cart/
+✨ Características
 
-In the project directory, you can run:
+    Exploración de Productos: Muestra un listado dinámico de artículos de ropa.
+    Gestión del Carrito:
+        Añadir productos al carrito.
+        Ajustar la cantidad de artículos en el carrito.
+        Eliminar productos específicos del carrito.
+        Vaciar el carrito completamente.
+    Cálculo de Precios en Tiempo Real: Suma automáticamente el precio de los artículos seleccionados, mostrando el total a pagar.
+    Diseño Responsivo: Interfaz adaptada para una experiencia óptima en dispositivos móviles, tablets y escritorio.
 
-### `npm start`
+🛠️ Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este proyecto se ha construido bajo principios de código limpio, escalabilidad y componentes reutilizables, utilizando:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    React: Librería principal para la interfaz de usuario.
+    JavaScript (ES6+): Lógica interactiva.
+    HTML5: Estructura del contenido.
+    CSS3: Estilizado y formato.
+    Bootstrap: Framework CSS para diseño responsivo y componentes UI.
+    Vite o Create React App (Deja solo el que hayas usado para la configuración inicial)
 
-### `npm test`
+📂 Estructura y Componentes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El proyecto sigue una arquitectura modular con los siguientes componentes clave:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    App.js: Componente raíz de la aplicación.
+    ProductList.js: Muestra y gestiona la lista de productos.
+    ProductCard.js: Representa un producto individual con sus detalles.
+    Cart.js: Contiene el resumen y la lista de artículos del carrito.
+    CartItem.js: Componente individual para cada artículo dentro del carrito.
