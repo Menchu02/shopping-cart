@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.fa5d8e63.css",
-    "main.js": "/shopping-cart/static/js/main.40d4021e.js",
+    "main.js": "/shopping-cart/static/js/main.ba82e25e.js",
     "static/js/453.87934a86.chunk.js": "/shopping-cart/static/js/453.87934a86.chunk.js",
     "static/media/mocasines.png": "/shopping-cart/static/media/mocasines.2b4f1b39aeb12595470c.png",
     "static/media/runningShoes.png": "/shopping-cart/static/media/runningShoes.45d7d720d9813dab144a.png",
@@ -11,11 +11,11 @@
     "static/media/zapatosVestir.png": "/shopping-cart/static/media/zapatosVestir.06a2ef5731775987d821.png",
     "index.html": "/shopping-cart/index.html",
     "main.fa5d8e63.css.map": "/shopping-cart/static/css/main.fa5d8e63.css.map",
-    "main.40d4021e.js.map": "/shopping-cart/static/js/main.40d4021e.js.map",
+    "main.ba82e25e.js.map": "/shopping-cart/static/js/main.ba82e25e.js.map",
     "453.87934a86.chunk.js.map": "/shopping-cart/static/js/453.87934a86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa5d8e63.css",
-    "static/js/main.40d4021e.js"
+    "static/js/main.ba82e25e.js"
   ]
 }
