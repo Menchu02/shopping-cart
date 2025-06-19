@@ -1,11 +1,11 @@
-🛒 Shopping Cart App (Tienda de Ropa Online)
+### Shopping Cart App (Tienda de Ropa Online)
 
 Aplicación interactiva de carrito de compras, desarrollada con React, que simula una tienda de ropa online. Los usuarios pueden explorar productos, gestionarlos en el carrito y ver el total en tiempo real.
-🚀 Demo en Vivo
 
 Puedes ver la aplicación funcionando aquí:
 https://menchu02.github.io/shopping-cart/
-✨ Características
+
+## Características
 
     Exploración de Productos: Muestra un listado dinámico de artículos de ropa.
     Gestión del Carrito:
@@ -16,7 +16,7 @@ https://menchu02.github.io/shopping-cart/
     Cálculo de Precios en Tiempo Real: Suma automáticamente el precio de los artículos seleccionados, mostrando el total a pagar.
     Diseño Responsivo: Interfaz adaptada para una experiencia óptima en dispositivos móviles, tablets y escritorio.
 
-🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 Este proyecto se ha construido bajo principios de código limpio, escalabilidad y componentes reutilizables, utilizando:
 
@@ -25,9 +25,9 @@ Este proyecto se ha construido bajo principios de código limpio, escalabilidad 
     HTML5: Estructura del contenido.
     CSS3: Estilizado y formato.
     Bootstrap: Framework CSS para diseño responsivo y componentes UI.
-    Vite o Create React App (Deja solo el que hayas usado para la configuración inicial)
+    Create React App
 
-📂 Estructura y Componentes
+## Estructura y Componentes
 
 El proyecto sigue una arquitectura modular con los siguientes componentes clave:
 
