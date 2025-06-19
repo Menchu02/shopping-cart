@@ -1,4 +1,4 @@
-### Shopping Cart App (Tienda de Ropa Online)
+# Shopping Cart App (Tienda de Ropa Online)
 
 Aplicación interactiva de carrito de compras, desarrollada con React, que simula una tienda de ropa online. Los usuarios pueden explorar productos, gestionarlos en el carrito y ver el total en tiempo real.
 
